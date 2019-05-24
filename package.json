@@ -1,0 +1,25 @@
+{
+  "name": "mindofuturesapi",
+  "version": "1.0.0",
+  "description": "Mindo Futures API",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "author": "David R. Bustos",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "errorhandler": "^1.5.0",
+    "express": "^4.16.4",
+    "jwt-simple": "^0.5.6",
+    "moment": "^2.24.0",
+    "mongoose": "^5.5.6",
+    "mongoose-pagination": "^1.0.0",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}
