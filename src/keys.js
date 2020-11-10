@@ -1,5 +1,5 @@
 module.exports = {
     database:{
-        URI: ENV['MONGODB_URI']
+        URI: process.env.MONGODB_URI
     }
 }
