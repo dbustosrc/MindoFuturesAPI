@@ -2,7 +2,7 @@
 
 var jwt = require('jwt-simple');
 var moment = require('moment');
-var secret = 'clave_secreta_curso';
+var secret = process.env.JWT_SECRET;
 
 exports.createToken = function(user){
     var payload = {
