@@ -1,7 +1,7 @@
 'use strict'
 
 var express = require('express');
-var userController = require('../controllers/user');
+var userController = require('../controllers/User');
 var md_auth = require('../middlewares/authenticated');
 //var multipart = require('../node_modules/connect-multiparty');
 //var md_updload = multipart({ uploadDir: './uploads/users/' });
